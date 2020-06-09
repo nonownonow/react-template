@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Board} from "./Board";
 
-function App() {
+export function App() {
     return (
         <div className='game'>
             <div className="game-board">
@@ -17,4 +17,3 @@ function App() {
     );
 }
 
-export default App;
